@@ -1,0 +1,104 @@
+body {
+	font-size: 16px;
+	color: black;
+	/* Turquoise accent 1 color for brand name: #40E0D0 */
+	background-color: #FFFFFF;
+	font-family: Calibri;
+}
+/* HEADER */
+#header-nav {
+	background-color: #FAEBD7/* #90EE90*/;
+	border-radius: 0;
+	border: 0;
+	/*padding: 15px; *//*to contrl the width of the header*/
+}
+#logo-img {
+  background: url('#') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand {
+	/*padding-bottom: 80px;*/
+	position: relative;
+}
+.navbar-brand h1 {
+	color: #000000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin: auto;
+	text-shadow: 2px 2px 5px #DB7093;
+	font-size: 22px;
+}
+#nav-list a {
+	color: #000000; /*color of the text (Home, Resipes and About as)*/
+	text-align: center;
+}
+#nav-list a:hover {
+	border: 2px solid #FFFFFF;
+	margin-bottom: 0;
+	margin-top: 0; 
+}
+.container button.navbar-toggle, .container .icon-bar {
+	border: 2px solid #000000;
+}
+button.navbar-toggle {
+  clear: both;
+  margin-top: -43px;
+}
+/* END HEADER */
+
+/* main content */
+
+#main-content h1 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.inside-container h3{
+	color: black;
+	text-align: center;
+}
+.inside-container p{
+	background-color: #fff;
+	color: black;
+	border: 2px solid #87CEEB;
+}
+.chicken {
+	margin-bottom: 50px;
+}
+/* end of main content */
+
+
+/******* Large devices only *******/
+@media (min-width: 1200px) {
+
+}
+
+/******* Medium devices only *******/
+@media (min-width: 992px) and (max-width: 1199px) {
+ #nav-list {
+	margin-top: 0;
+}
+}
+
+/******* Small devices only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+#nav-list {
+	margin-top: 50px;	
+}
+}
+/******* Extral small devices only *******/
+@media (max-width: 767px) {
+#nav-list {
+	margin-top: 50px;	
+}
+}
